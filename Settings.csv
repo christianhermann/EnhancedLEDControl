@@ -1,3 +1,7 @@
 COMPort;COM7;
 Marker Range;22;45
 Max Cell Size;100000;
+IP Adress;10.173.128.48;
+DeviceID;dev5094;
+Port;8004;
+Api Level;6;
