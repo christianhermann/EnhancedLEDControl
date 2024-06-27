@@ -1,5 +1,5 @@
 <deployment-project plugin="plugin.ezdeploy" plugin-version="1.0">
-  <configuration build-checksum="4114231950" file="U:\Projekte\Christian\Messstand Patch3\Software Centurion Installer\FRETSoftwarePatch3.prj" location="U:\Projekte\Christian\Messstand Patch3\Software Centurion Installer" name="FRETSoftwarePatch3" preferred-package-location="U:\Projekte an Analysis1\Christian\Messstand Patch3\Software Centurion Installer\FRETSoftwarePatch3\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
+  <configuration build-checksum="3862031977" file="U:\Projekte\Christian\Messstand Patch3\Software Centurion Installer\FRETSoftwarePatch3.prj" location="U:\Projekte\Christian\Messstand Patch3\Software Centurion Installer" name="FRETSoftwarePatch3" preferred-package-location="U:\Projekte\Christian\Messstand Patch3\Software Centurion Installer\FRETSoftwarePatch3\for_redistribution" preferred-package-type="package.type.exe" target="target.ezdeploy.standalone" target-name="Application Compiler">
     <param.appname>EnhancedLEDControl</param.appname>
     <param.icon>${PROJECT_ROOT}\FRETSoftwarePatch3_resources\icon.ico</param.icon>
     <param.icons>
@@ -9,8 +9,8 @@
       <file>${PROJECT_ROOT}\FRETSoftwarePatch3_resources\icon_16.png</file>
     </param.icons>
     <param.version>1.2</param.version>
-    <param.authnamewatermark />
-    <param.email />
+    <param.authnamewatermark>Christian Hermann</param.authnamewatermark>
+    <param.email>christian.hermann@lrz.uni-muenchen.de</param.email>
     <param.company />
     <param.summary />
     <param.description />
@@ -86,9 +86,6 @@
     <fileset.resources />
     <fileset.package />
     <fileset.depfun>
-      <file>C:\Program Files\Zurich Instruments\LabOne\API\MATLAB2012\Driver\ziDAQ.m</file>
-      <file>C:\Program Files\Zurich Instruments\LabOne\API\MATLAB2012\Driver\ziDAQ.mexw64</file>
-      <file>C:\Program Files\Zurich Instruments\LabOne\API\MATLAB2012\Utils\ziCreateAPISession.m</file>
       <file>${PROJECT_ROOT}\icon_48.png</file>
       <file>${PROJECT_ROOT}\LED_list.csv</file>
       <file>${PROJECT_ROOT}\Rainbow_Of_Light_Emitting_Diodes_clip_art.svg</file>
@@ -104,9 +101,7 @@
       <root>C:\Program Files\MATLAB\R2024a</root>
       <toolboxes>
         <toolbox name="matlabcoder" />
-        <toolbox name="embeddedcoder" />
         <toolbox name="fixedpoint" />
-        <toolbox name="neuralnetwork" />
       </toolboxes>
       <toolbox>
         <matlabcoder>
@@ -114,19 +109,9 @@
         </matlabcoder>
       </toolbox>
       <toolbox>
-        <embeddedcoder>
-          <enabled>true</enabled>
-        </embeddedcoder>
-      </toolbox>
-      <toolbox>
         <fixedpoint>
           <enabled>true</enabled>
         </fixedpoint>
-      </toolbox>
-      <toolbox>
-        <neuralnetwork>
-          <enabled>true</enabled>
-        </neuralnetwork>
       </toolbox>
     </matlab>
     <platform>
